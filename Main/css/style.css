@@ -1,0 +1,105 @@
+:root{
+    --blue: #1977f2;
+    --lightgrey: #EBEEF1;
+    --green: #42B729;
+    --grey: #B2B5B8;
+
+}
+.facebook{
+  text-align: center;
+    margin-top: 50px;
+    
+}
+.loginbox, input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.loginbox{
+    border: 2px solid var(--lightgrey);
+    box-shadow: 2px 0px 2px var(--lightgrey);
+width: fit-content;
+border-radius: 8px;
+
+
+
+}
+
+h1{
+    font-size: 45px;
+    margin-bottom: 15px;
+    color: var(--blue);
+}
+h2{
+    margin-top: 25px;
+    font-size: 19px;
+    font-weight: 400;
+}
+#email, #password{
+    margin: 20px;
+    padding: 20px;
+ width: 90%;
+
+}
+input{
+    border-radius: 8px;
+    border: solid #EBEEF1;
+}
+
+.facebook{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#login{
+background: var(--blue);
+padding-left: 160px;
+padding-right: 150px;
+font-size: 20px;
+color: white;
+padding-top: 15px;
+padding-bottom: 15px;
+margin-left: 18px;
+width: 90%;
+margin-bottom: 15px;
+}
+input::placeholder{
+    font-size: 17px;
+}
+a{
+    text-decoration: none;
+    color: var(--blue);
+    font-size: 15px;
+}
+a:visited{
+    color: var(--blue)
+}
+a:hover{
+    color: var(--blue);
+}
+#create{
+    background-color: var(--green);
+    color: white;
+   padding-left: 25px;
+   padding-right: 25px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-size: 17px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 20px;
+}
+.or{
+    font-size: 12px;
+    color: var(--grey);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    
+   
+}
